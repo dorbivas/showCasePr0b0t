@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pillow = "*"
+pytest = "*"
+django-phonenumber-field = {extras = ["phonenumbers"], version = "*"}
+phonenumbers = "*"
+
+[dev-packages]
+flake8 = "*"
+pytest-django = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.9"
